@@ -4,6 +4,8 @@
   padding: 0px;
 }
 
+/* PAGE SECTIONS */
+
 body {
   color: #444;
   font-family: sans-serif;
@@ -16,6 +18,14 @@ body {
   padding-left: 40px; */
   padding: 20px 40px;
   margin-bottom: 60px;
+  /* height: 80px; */
+}
+
+.container {
+  width: 800px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
 }
 
 nav {
@@ -37,7 +47,10 @@ aside {
   /* padding-top: 50px;
   padding-bottom: 50px; */
   padding: 50px 0;
+  width: 500px;
 }
+
+/* SMALLER ELEMENTS */
 
 h1,
 h2,
@@ -84,6 +97,7 @@ li {
 li {
   font-size: 20px;
   margin-bottom: 10px;
+  /* display: inline; */
 }
 
 li:last-child {
@@ -162,6 +176,21 @@ a:active {
 }
 
 /* LVHA */
+
+.post-img {
+  width: 100%;
+  height: auto;
+}
+
+nav a:link {
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
+}
 
 /* Resolving conflicts */
 /* #copyright {
